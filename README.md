@@ -79,3 +79,4 @@ Google: "Come ooon, it's not that bad is it?"
 
 <img alt="depressing android docs" src="https://user-images.githubusercontent.com/29265684/60115639-b6047480-97b9-11e9-81b6-849641f66156.png">
 
+It surprises me how Google can do so well writing GoDoc, and fail so miserably at writing Android Documentation.
