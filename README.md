@@ -8,7 +8,7 @@ Android device encryption goes a little something like this:
 
 That's right, by default, your encryption key (`default_password`) is stored on your device and can decrypt all your personal data. Only after doing research you can find out that this default encryption is utterly useless, and you are advised to "strengthen" this encryption by setting a secure screen lock password, pattern or PIN.
 
-You don't use a 256-bit key to unlock your phone each time, do you? Of course not, you would have arthritis by next week, because you unlock your phone tens if not hundreds of times a day.
+You don't use a long and complicated key to unlock your phone, do you? Of course not, you would have arthritis by next week, because you unlock your phone tens if not hundreds of times a day.
 
 The way Google treats device encryption is absolutely pathetic, and should learn from Apple. However, Apple should also get their shit together and enforce a strong iCloud password that also encrypts your device, which you should ONLY have to enter when your device performs a cold boot.
 
