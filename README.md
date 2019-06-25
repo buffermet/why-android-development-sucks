@@ -56,13 +56,12 @@ final Point realDisplaySize = new Point();
 display.getSize(realDisplaySize);
 
 Point realScreenSize = getRealScreenSize(context);
-if (appUsableSize.x < realScreenSize.x) {
-    return new Point(realScreenSize.x - appUsableSize.x, appUsableSize.y);
+if (displaySize.x < realDisplaySize.x) {
+    navigationBarHeight = new Point(realDisplaySize.x - displaySize.x, displaySize.y).y;
 }
-if (appUsableSize.y < realScreenSize.y) {
-    return new Point(appUsableSize.x, realScreenSize.y - appUsableSize.y);
+if (displaySize.y < realDisplaySize.y) {
+    navigationBarHeight = new Point(displaySize.x, realDisplaySize.y - displaySize.y).y;
 }
-return new Point();
 ```
 
 # X. IDE
