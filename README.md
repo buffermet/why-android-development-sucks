@@ -59,7 +59,6 @@ display.getRealSize(displaySize);
 final Point realDisplaySize = new Point();
 display.getSize(realDisplaySize);
 
-Point realScreenSize = getRealScreenSize(context);
 if (displaySize.x < realDisplaySize.x) {
     navigationBarHeight = new Point(realDisplaySize.x - displaySize.x, displaySize.y).y;
 }
