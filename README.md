@@ -1,6 +1,8 @@
 You can take this to your psychiatrist.
 
-# 1. Screen size
+# 1. API
+
+## 1.1 Screen size
 
 Developer: "Hey Google, I got a simple question for you: what is the height of my device's display?"
 
@@ -46,7 +48,9 @@ final int resourceId = getResources().getIdentifier("status_bar_height", "dimen"
 if (resourceId > 0) {
     statusBarHeight = getResources().getDimensionPixelSize(resourceId);
 }
+```
 
+```java
 int navigationBarHeight = 0;
 final WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
 final Display display = windowManager.getDefaultDisplay();
@@ -67,5 +71,3 @@ if (displaySize.y < realDisplaySize.y) {
 # X. IDE
 
 # X. SDK
-
-# X. API
