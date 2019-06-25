@@ -55,9 +55,9 @@ int navigationBarHeight = 0;
 final WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
 final Display display = windowManager.getDefaultDisplay();
 final Point displaySize = new Point();
-display.getRealSize(displaySize);
 final Point realDisplaySize = new Point();
-display.getSize(realDisplaySize);
+display.getSize(displaySize);
+display.getRealSize(realDisplaySize);
 
 if (displaySize.x < realDisplaySize.x) {
     navigationBarHeight = new Point(realDisplaySize.x - displaySize.x, displaySize.y).y;
