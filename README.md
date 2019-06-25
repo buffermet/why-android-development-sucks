@@ -19,7 +19,7 @@ final int displayHeight = size.y;
 
 Developer: "Ok, let me give that a try. Nope! It's about 80dp short, what's going on Google?"
 
-Google: "Well, please describe what display you are talking about. You could be talking about the physical size of the display, but what if you mean the display size minus the status bar height, minus the navigation bar height? Did you perhaps mean the REAL display height?"
+Google: "Well, please describe what display you are talking about. You could be talking about the physical height of the display, but what if you mean the display height minus the status bar height, minus the navigation bar height? Did you perhaps mean the REAL display height?"
 
 Developer: "Jesus Christ..."
 
