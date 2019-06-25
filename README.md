@@ -67,6 +67,8 @@ if (displaySize.y < realDisplaySize.y) {
 }
 ```
 
+Developer: "I think I need to throw up..."
+
 # X. IDE
 
 # X. SDK
