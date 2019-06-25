@@ -69,6 +69,10 @@ if (displaySize.y < realDisplaySize.y) {
 
 Developer: "I think I need to throw up..."
 
+# 1.2 Soft keyboard
+
+Holy fucking shit, kill me already... (to be continued)
+
 # X. IDE
 
 # X. SDK
