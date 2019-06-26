@@ -10,7 +10,7 @@ That's right, by default, your encryption key (`default_password`) can decrypt a
 
 You don't use a long and complicated key to unlock your phone, do you? Probably not, you would have arthritis by next week, because you unlock your phone tens if not hundreds of times a day.
 
-The way Google treats device encryption is absolutely pathetic, and should learn from Apple. However, Apple should also get their shit together and enforce a strong iCloud password that also encrypts your device, which you should ONLY have to enter when your device performs a cold boot.
+The way Google treats device encryption is absolutely pathetic, and should learn from Apple. However, Apple should also get their shit together and use people's iCloud password to encrypt their device, which people should ONLY have to enter when their device performs a cold boot.
 
 # 1. API
 
