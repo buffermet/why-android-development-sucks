@@ -6,7 +6,7 @@ Android device encryption goes a little something like this:
 
 ![gif](https://user-images.githubusercontent.com/29265684/60131122-fecd2500-97db-11e9-90f9-8a756f525a62.gif)
 
-That's right, by default, your encryption key (`default_password`) can decrypt all your personal data. Only after doing research you can find out that this default encryption is utterly useless, and you are advised to "strengthen" this encryption by setting a secure screen lock password, pattern or PIN.
+That's right, by default, your encryption key (`default_password`) can decrypt all your personal data. Only after doing research you can find out that this default encryption can be utterly useless, and you are advised to "strengthen" this encryption by setting a secure screen lock password, pattern or PIN. Most manufacturers promise that your device is secured with a TEE (such as TrustZone), however, whether your device is indeed secured with a TEE depends on your manufacturer. There are 1900 registered Android device manufacturers (give or take), there are many unregistered manufacturers, supply chain attackers and second hand sellers. Apple is very determined to avoid these issues, but we're not talking about iOS right now, we're talking about Android.
 
 You don't use a long and complicated key to unlock your phone, do you? Of course not, you would have arthritis by next week, because you unlock your phone tens if not hundreds of times a day.
 
@@ -46,7 +46,7 @@ display.getRealSize(size);
 final int realDisplayHeight = size.y;
 ```
 
-Developer: "Google, WTF! Why do you differentiate display.getSize() and display.getRealSize()"
+Developer: "Google, WTF! Why do you differentiate display.getSize() and display.getRealSize() ??"
 
 Google: "Well, we're not sure if you're competent enough to subtract the status bar height and the navigation bar height yourself, so we prechewed that for you :D cool right?!"
 
