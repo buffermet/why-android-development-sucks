@@ -8,7 +8,7 @@ Android device encryption goes a little something like this:
 
 That's right, by default, your encryption key (`default_password`) can decrypt all your personal data. Only after doing research you can find out that this default encryption can be utterly useless, and you are advised to "strengthen" this encryption by setting a secure screen lock password, pattern or PIN. Most manufacturers promise that your device is secured with a TEE (such as TrustZone), however, whether your device is indeed secured with a TEE depends on your manufacturer. There are 1900 registered Android device manufacturers (give or take), there are many unregistered manufacturers, supply chain attackers and second hand sellers. Apple is very determined to avoid these issues by preventing people from getting a root shell, but we're not talking about iOS/iPadOS right now, we're talking about Android.
 
-You don't use a long and complicated key to unlock your phone, do you? Of course not, you would have arthritis by next week, because you unlock your phone tens if not hundreds of times a day.
+You don't use a long and complicated key to unlock your phone, do you? Probably not, you would have arthritis by next week, because you unlock your phone tens if not hundreds of times a day.
 
 The way Google treats device encryption is absolutely pathetic, and should learn from Apple. However, Apple should also get their shit together and enforce a strong iCloud password that also encrypts your device, which you should ONLY have to enter when your device performs a cold boot.
 
