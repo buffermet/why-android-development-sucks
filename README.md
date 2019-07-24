@@ -92,7 +92,7 @@ Back to this:
 
 ![Screenshot from 2019-07-24 22-41-25](https://user-images.githubusercontent.com/29265684/61794787-455a8180-ae65-11e9-98bc-e223e66ba663.png)
 
-Who the fuck thought XML was a good idea... Just take 1 glimpse at CSS and you see that none of this bullshit was ever necessary.
+And who the fuck ever thought XML was a good idea? Just take 1 glimpse at CSS and you see that none of this bullshit was ever necessary.
 
 And guess what, if one asks how to disable ONE of these annoyances, one gets the following response: use power save mode (aka disable fucking everything).
 
