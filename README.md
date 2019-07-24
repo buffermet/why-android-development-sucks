@@ -77,7 +77,11 @@ Holy fucking shit, kill me already... (to be continued)
 
 I'll cut right to the chase. Android Studio is the worst fucking dev environment ever devised.
 
-I finally worked out a system to quickly navigate in these damn bloated XML files, and guess what, you don't just add newlines, you add two. You don't adopt my style of identation, you use your own (you indent twice), and YOU **INSIST ON MAKING ME EXPAND A TAG TO SEE WHAT ITS ID IS**. DO YOU EVEN USE YOUR OWN SDK????
+I finally worked out a system to quickly navigate in these damn bloated XML files, and guess what, you fuck it all up when I make 1 little change using the design view. 
+
+1. you don't just add newlines, you add two
+2. you don't adopt my style of identation, you use your own (you indent twice for attributes)
+3. YOU **INSIST ON MAKING ME EXPAND A TAG TO SEE WHAT ITS ID IS**. DO YOU EVEN USE YOUR OWN SDK????
 
 How much time I have wasted changing this:
 
