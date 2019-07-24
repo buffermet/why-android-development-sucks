@@ -94,7 +94,7 @@ Back to this:
 
 And who the fuck ever thought XML was a good idea? Just take 1 glimpse at CSS and you see that none of this bullshit was ever necessary.
 
-And guess what, if one asks how to disable ONE of these annoyances, one gets the following response: use power save mode (aka disable fucking everything).
+And guess what, if one asks how to disable ONE of these annoyances, one gets the following response: use power save mode (aka disable fucking everything, notepad style).
 
 Fuck me dead.
 
