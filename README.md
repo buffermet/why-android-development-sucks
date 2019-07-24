@@ -73,9 +73,7 @@ Developer: "I think I need to throw up..."
 
 Holy fucking shit, kill me already... (to be continued)
 
-# X. IDE
-
-# X. SDK
+# 2. SDK
 
 I'll cut right to the chase. Android Studio is the worst fucking dev environment ever devised.
 
@@ -96,7 +94,7 @@ And guess what, if one asks how to disable ONE of these annoyances, one gets the
 
 Fuck me dead.
 
-# X. DOCS
+# 3. DOCS
 
 <img alt="depressing android docs" src="https://user-images.githubusercontent.com/29265684/60115639-b6047480-97b9-11e9-81b6-849641f66156.png">
 
