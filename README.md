@@ -77,10 +77,9 @@ Holy fucking shit, kill me already... (to be continued)
 
 # X. SDK
 
-I'll cut right to the chase. Android Studio is the worst fucking dev environment ever devised. Holy fucking shit.
-WHY THE FUCK does this crappy software insist on putting the ID of XML elements on a new line??
+I'll cut right to the chase. Android Studio is the worst fucking dev environment ever devised.
 
-I finally worked out a system to quickly navigate in these damn bloated XML files, and guess what, you don't just add newlines, you add two. You don't adopt my style of identation, you use your own (two instead of one), and YOU **INSIST ON MAKING ME EXPAND A TAG TO SEE WHAT ITS ID IS**. DO YOU EVEN USE YOUR OWN SDK????
+I finally worked out a system to quickly navigate in these damn bloated XML files, and guess what, you don't just add newlines, you add two. You don't adopt my style of identation, you use your own (you indent twice), and YOU **INSIST ON MAKING ME EXPAND A TAG TO SEE WHAT ITS ID IS**. DO YOU EVEN USE YOUR OWN SDK????
 
 How much time I have wasted changing this:
 
