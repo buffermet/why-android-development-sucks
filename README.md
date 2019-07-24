@@ -67,7 +67,7 @@ if (displaySize.y < realDisplaySize.y) {
 }
 ```
 
-Developer: "I think I need to throw up..."
+Developer: *pukes all over the fucking keyboard*
 
 # 1.2 Soft keyboard
 
