@@ -77,6 +77,24 @@ Holy fucking shit, kill me already... (to be continued)
 
 # X. SDK
 
+I'll cut right to the chase. Android Studio is the worst fucking dev environment ever devised. Holy fucking shit.
+WHY THE FUCK does this crappy software insist on putting the ID of XML elements on a new line??
+
+I finally worked out a system to quickly navigate in these damn bloated XML files, and guess what, you don't just add newlines, you add two. You don't adopt my style of identation, you use your own (two instead of one), and YOU **INSIST ON MAKING ME EXPAND A TAG TO SEE WHAT ITS ID IS**. DO YOU EVEN USE YOUR OWN SDK????
+
+How much time I have wasted changing this:
+
+![Screenshot from 2019-07-24 22-40-11](https://user-images.githubusercontent.com/29265684/61794774-3a075600-ae65-11e9-9398-b531011b8680.png)
+
+
+Back to this:
+
+![Screenshot from 2019-07-24 22-41-25](https://user-images.githubusercontent.com/29265684/61794787-455a8180-ae65-11e9-98bc-e223e66ba663.png)
+
+And guess what, if one asks how to disable ONE of these annoyances, one gets the following response: use power save mode (aka disable fucking everything).
+
+Fuck me dead.
+
 # X. DOCS
 
 <img alt="depressing android docs" src="https://user-images.githubusercontent.com/29265684/60115639-b6047480-97b9-11e9-81b6-849641f66156.png">
