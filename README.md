@@ -73,6 +73,12 @@ Developer: \*pukes all over the keyboard\*
 
 Holy shit, kill me already... (to be continued)
 
+# 1.3 What the fuck
+
+Ever heard of word wrap?
+
+https://stackoverflow.com/questions/45720678/textview-breaks-my-word-by-letters
+
 # 2. SDK
 
 I'll cut right to the chase. Android Studio is the worst dev environment ever devised.
