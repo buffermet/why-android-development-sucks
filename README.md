@@ -1,6 +1,6 @@
 You can take this to your psychiatrist.
 
-# 1. API
+# 1. APIs
 
 ## 1.1 Screen size
 
@@ -67,25 +67,66 @@ if (displaySize.y < realDisplaySize.y) {
 }
 ```
 
-Developer: \*pukes all over the keyboard\*
+Developer: \*vomits on keyboard\*
 
 # 1.2 Soft keyboard
 
-Holy shit, kill me already... (to be continued)
+Actually this one's not that bad, except hiding the keyboard should simply take `ic.hideKeyboard()` or a global `hideKeyboard()` instead of a combination of hacks...
 
 # 1.3 What the fuck
 
 Ever heard of word wrap?
 
-https://stackoverflow.com/questions/45720678/textview-breaks-my-word-by-letters
+This is unbelievable: https://stackoverflow.com/questions/45720678/textview-breaks-my-word-by-letters
+
+```
+highQuality
+normal
+none
+chrome session restore much appreciate
+```
+
+# 1.4 English vocabulary, grammar and binary logic
+
+Dear google, this `_` is horizontal and this `|` is vertical.
+
+When we are talking about horizontal or vertical alignment, we are talking about alignment along the horizontal or vertical **axis**.
+
+# 1.5 Binary logic
+
+When dealing with binary logic (on/off switches), there is no superposition.
+
+When dealing with keyboard input, there is no state inbetween pressing the key and releasing it.
+
+```
+// terminology of the current EditText API
+beforeTextChanged() // technically this counts as the entire duration from boot until a key press
+onTextChanged()     // this would make sense if it did what beforeKeyPressed() currently does, but instead it's redundant and confusing
+afterTextChange()   // makes sense, except there seems to be an arbitrary delay of <=500ms
+
+// how it should read following the current logic
+() // keypress detected but not parsed yet
+() // keypress detected and asynchronously parsed
+() // keypress detected and parsing finished
+
+// what it should be
+... -> {
+    @Override
+    public void () {
+
+    }
+    @Override
+    public void () {
+
+    }
+});
+```
 
 # 2. SDK
 
-I'll cut right to the chase. Android Studio is the worst dev environment ever devised.
+When you finally work out the quickest way to navigate in these prefix:bloated XML files, the battle begins. 
 
-I finally worked out a system to quickly navigate in these damn bloated XML files, and guess what, you screw it all up when I make 1 little change using the design view. 
-
-1. you don't just add newlines, you add two
+You'll maintain a consistent use of a single indent for function parameters, but Android Studio/IDEA.
 2. you don't adopt my style of identation, you use your own (you indent twice for attributes)
 3. YOU **INSIST ON MAKING ME EXPAND A TAG TO SEE WHAT ITS ID IS**. DO YOU EVEN USE YOUR OWN SDK????
 
