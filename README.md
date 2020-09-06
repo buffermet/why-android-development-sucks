@@ -87,11 +87,36 @@ Ever heard of word wrap?
 
 This top voted answer is unbelievable: https://stackoverflow.com/questions/45720678/textview-breaks-my-word-by-letters
 
-# 1.4 English vocabulary, grammar and binary logic
+# 1.4 English vocabulary and grammar
 
 Dear google, this `_` is horizontal and this `|` is vertical.
 
 When we are talking about horizontal or vertical alignment, we are talking about alignment along the horizontal or vertical **axis**. We're not talking about _sliding the items along a vertical/horiztonal axis so that they align along its perpendicular axis_.
+
+# 1.5 The Quantum State
+
+Android has mastered the art of quantum computing.
+
+```java
+final TextWatcher textWatcher = new TextWatcher(){
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        // do stuff
+    }
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+        // do magic
+    }
+    @Override
+    public void afterTextChanged(Editable arg0) {
+        // do stuff
+    }
+};
+```
+
+Use `onTextChanged` if you don't feel like using `beforeTextChanged` or `afterTextChanged` but you do feel like reading Android's shitty documentation in an attempt to make sense of exactly when your code would run.
+
+This is no way to solve a problem/teach asynchronous method calling.
 
 # 2. SDK
 
