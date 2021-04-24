@@ -85,7 +85,7 @@ Actually this one's not that bad, except hiding the keyboard should simply take 
 
 Ever heard of word wrap?
 
-This top voted answer is unbelievable: https://stackoverflow.com/questions/45720678/textview-breaks-my-word-by-letters
+This top voted answer is unbelievable: https://stackoverflow.com/questions/19197958/android-textview-break-line-behaviour-how-to-split-the-last-word/19209617#19209617
 
 # 1.4 English vocabulary and grammar
 
